@@ -1,0 +1,13 @@
+{
+  "response": [
+    {
+      "datetime": "1618237790",
+      "filename": "lineage-18.1-20210412-UNOFFICIAL-beyond2lte.zip",
+      "id": "77140dc8791bdda2172637c35adbcceac8f486a1ff3291d030613f46b2c3a409",
+      "romtype": "UNOFFICIAL",
+      "size": "733438166",
+      "url": "https://github.com/Linux4/lineage_OTA/releases/download/20210412/lineage-18.1-20210412-UNOFFICIAL-beyond2lte.zip",
+      "version": "18.1"
+    }
+  ]
+}
