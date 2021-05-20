@@ -1,0 +1,410 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.page-header {
+    display: none;
+}
+
+/*
+                        _______
+                       /       \
+                      .==.    .==.
+                     ((  ))==((  ))
+                    / "=="    "=="\
+                   /____|| || ||___\
+       ________     ____    ________  ___    ___
+       |  ___  \   /    \   |  ___  \ |  |  /  /
+       |  |  \  \ /  /\  \  |  |  \  \|  |_/  /
+       |  |   )  /  /__\  \ |  |__/  /|  ___  \
+       |  |__/  /  ______  \|  ____  \|  |  \  \
+_______|_______/__/ ____ \__\__|___\__\__|___\__\____
+|  ___  \ |  ____/ /    \   |  ___  \ |  ____|  ___  \
+|  |  \  \|  |___ /  /\  \  |  |  \  \|  |___|  |  \  \
+|  |__/  /|  ____/  /__\  \ |  |   )  |  ____|  |__/  /
+|  ____  \|  |__/  ______  \|  |__/  /|  |___|  ____  \
+|__|   \__\____/__/      \__\_______/ |______|__|   \__\
+                https://darkreader.org
+*/
+/* User-Agent Style */
+html {
+    background-color: #181a1b !important;
+}
+html, body, input, textarea, select, button {
+    background-color: #181a1b;
+}
+html, body, input, textarea, select, button {
+    border-color: #736b5e;
+    color: #e8e6e3;
+}
+a {
+    color: #3391ff;
+}
+table {
+    border-color: #545b5e;
+}
+::placeholder {
+    color: #b2aba1;
+}
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    background-color: #555b00 !important;
+    color: #e8e6e3 !important;
+}
+::-webkit-scrollbar {
+    background-color: #202324;
+    color: #aba499;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #454a4d;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #575e62;
+}
+::-webkit-scrollbar-thumb:active {
+    background-color: #484e51;
+}
+::-webkit-scrollbar-corner {
+    background-color: #181a1b;
+}
+* {
+    scrollbar-color: #454a4d #202324;
+}
+::selection {
+    background-color: #004daa !important;
+    color: #e8e6e3 !important;
+}
+::-moz-selection {
+    background-color: #004daa !important;
+    color: #e8e6e3 !important;
+}
+
+/* Invert Style */
+.jfk-bubble.gtx-bubble, .captcheck_answer_label > input + img, span#closed_text > img[src^="https://www.gstatic.com/images/branding/googlelogo"], span[data-href^="https://www.hcaptcha.com/"] > #icon, #bit-notification-bar-iframe, embed[type="application/pdf"] {
+    filter: invert(100%) hue-rotate(180deg) contrast(90%) !important;
+}
+
+/* Variables Style */
+:root {
+   --darkreader-neutral-background: #131516;
+   --darkreader-neutral-text: #d8d4cf;
+   --darkreader-selection-background: #004daa;
+   --darkreader-selection-text: #e8e6e3;
+}
+
+/* Modified CSS */
+a {
+    background-color: transparent;
+}
+a:active,
+a:hover {
+    outline-color: currentcolor;
+}
+abbr[title] {
+    border-bottom-color: currentcolor;
+}
+mark {
+    background-color: rgb(204, 204, 0);
+    background-image: none;
+    color: rgb(232, 230, 227);
+}
+img {
+    border-color: currentcolor;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+    color: inherit;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border-color: currentcolor;
+}
+fieldset {
+    border-color: rgb(66, 71, 74);
+}
+legend {
+    border-color: currentcolor;
+}
+.highlight .cm {
+    color: rgb(162, 154, 142);
+}
+.highlight .cp {
+    color: rgb(168, 160, 149);
+}
+.highlight .c1 {
+    color: rgb(162, 154, 142);
+}
+.highlight .cs {
+    color: rgb(168, 160, 149);
+}
+.highlight .c,
+.highlight .cd {
+    color: rgb(162, 154, 142);
+}
+.highlight .err {
+    color: rgb(233, 94, 94);
+    background-color: rgb(58, 36, 36);
+}
+.highlight .gd {
+    color: rgb(232, 230, 227);
+    background-color: rgb(71, 0, 0);
+}
+.highlight .ge {
+    color: rgb(232, 230, 227);
+}
+.highlight .gr {
+    color: rgb(255, 85, 85);
+}
+.highlight .gh {
+    color: rgb(168, 160, 149);
+}
+.highlight .gi {
+    color: rgb(232, 230, 227);
+    background-color: rgb(18, 71, 0);
+}
+.highlight .go {
+    color: rgb(157, 148, 136);
+}
+.highlight .gp {
+    color: rgb(178, 172, 162);
+}
+.highlight .gu {
+    color: rgb(178, 172, 162);
+}
+.highlight .gt {
+    color: rgb(255, 85, 85);
+}
+.highlight .kc {
+    color: rgb(232, 230, 227);
+}
+.highlight .kd {
+    color: rgb(232, 230, 227);
+}
+.highlight .kn {
+    color: rgb(232, 230, 227);
+}
+.highlight .kp {
+    color: rgb(232, 230, 227);
+}
+.highlight .kr {
+    color: rgb(232, 230, 227);
+}
+.highlight .kt {
+    color: rgb(139, 166, 197);
+}
+.highlight .k,
+.highlight .kv {
+    color: rgb(232, 230, 227);
+}
+.highlight .mf {
+    color: rgb(97, 255, 255);
+}
+.highlight .mh {
+    color: rgb(97, 255, 255);
+}
+.highlight .il {
+    color: rgb(97, 255, 255);
+}
+.highlight .mi {
+    color: rgb(97, 255, 255);
+}
+.highlight .mo {
+    color: rgb(97, 255, 255);
+}
+.highlight .m,
+.highlight .mb,
+.highlight .mx {
+    color: rgb(97, 255, 255);
+}
+.highlight .sb {
+    color: rgb(239, 53, 100);
+}
+.highlight .sc {
+    color: rgb(239, 53, 100);
+}
+.highlight .sd {
+    color: rgb(239, 53, 100);
+}
+.highlight .s2 {
+    color: rgb(239, 53, 100);
+}
+.highlight .se {
+    color: rgb(239, 53, 100);
+}
+.highlight .sh {
+    color: rgb(239, 53, 100);
+}
+.highlight .si {
+    color: rgb(239, 53, 100);
+}
+.highlight .sx {
+    color: rgb(239, 53, 100);
+}
+.highlight .sr {
+    color: rgb(97, 255, 136);
+}
+.highlight .s1 {
+    color: rgb(239, 53, 100);
+}
+.highlight .ss {
+    color: rgb(255, 97, 216);
+}
+.highlight .s {
+    color: rgb(239, 53, 100);
+}
+.highlight .na {
+    color: rgb(114, 255, 255);
+}
+.highlight .bp {
+    color: rgb(168, 160, 149);
+}
+.highlight .nb {
+    color: rgb(79, 211, 255);
+}
+.highlight .nc {
+    color: rgb(139, 166, 197);
+}
+.highlight .no {
+    color: rgb(114, 255, 255);
+}
+.highlight .nd {
+    color: rgb(184, 178, 168);
+}
+.highlight .ni {
+    color: rgb(255, 114, 255);
+}
+.highlight .ne {
+    color: rgb(255, 97, 97);
+}
+.highlight .nf {
+    color: rgb(255, 97, 97);
+}
+.highlight .nl {
+    color: rgb(255, 97, 97);
+}
+.highlight .nn {
+    color: rgb(178, 172, 162);
+}
+.highlight .nt {
+    color: rgb(127, 174, 255);
+}
+.highlight .vc {
+    color: rgb(114, 255, 255);
+}
+.highlight .vg {
+    color: rgb(114, 255, 255);
+}
+.highlight .vi {
+    color: rgb(114, 255, 255);
+}
+.highlight .nv {
+    color: rgb(114, 255, 255);
+}
+.highlight .ow {
+    color: rgb(232, 230, 227);
+}
+.highlight .o {
+    color: rgb(232, 230, 227);
+}
+.highlight .w {
+    color: rgb(189, 183, 175);
+}
+.highlight {
+    background-color: rgb(28, 30, 31);
+}
+body {
+    color: rgb(166, 158, 147);
+}
+a {
+    color: rgb(101, 172, 230);
+    text-decoration-color: currentcolor;
+}
+a:hover {
+    text-decoration-color: currentcolor;
+}
+.btn {
+    color: rgba(232, 230, 227, 0.7);
+    background-color: rgba(24, 26, 27, 0.08);
+    border-color: rgba(48, 52, 54, 0.2);
+}
+.btn:hover {
+    color: rgba(232, 230, 227, 0.8);
+    text-decoration-color: currentcolor;
+    background-color: rgba(24, 26, 27, 0.2);
+    border-color: rgba(48, 52, 54, 0.3);
+}
+.page-header {
+    color: rgb(232, 230, 227);
+    background-color: rgb(17, 122, 70);
+    background-image: linear-gradient(120deg,
+    rgb(17, 70, 122),
+    rgb(17, 122, 70));
+}
+.main-content h1,
+.main-content h2,
+.main-content h3,
+.main-content h4,
+.main-content h5,
+.main-content h6 {
+    color: rgb(103, 234, 169);
+}
+.main-content code {
+    color: rgb(164, 156, 144);
+    background-color: rgb(29, 31, 32);
+}
+.main-content pre {
+    color: rgb(164, 156, 144);
+    background-color: rgb(29, 31, 32);
+    border-color: rgb(35, 59, 82);
+}
+.main-content pre > code {
+    color: rgb(164, 156, 144);
+    background-color: transparent;
+    background-image: none;
+    border-color: currentcolor;
+}
+.main-content pre code,
+.main-content pre tt {
+    background-color: transparent;
+    border-color: currentcolor;
+}
+.main-content blockquote {
+    color: rgb(160, 151, 139);
+    border-left-color: rgb(35, 59, 82);
+}
+.main-content table th,
+.main-content table td {
+    border-color: rgb(54, 58, 61);
+}
+.main-content hr {
+    background-color: rgb(32, 35, 37);
+    border-color: currentcolor;
+}
+.site-footer {
+    border-top-color: rgb(52, 57, 59);
+}
+.site-footer-credits {
+    color: rgb(160, 151, 139);
+}
+
+/* Override Style */
+.vimvixen-hint {
+    background-color: #7b5300 !important;
+    border-color: #d8b013 !important;
+    color: #f3e8c8 !important;
+}
+::placeholder {
+    opacity: 0.5 !important;
+}
+a[href="https://coinmarketcap.com/"] > svg[width="94"][height="16"] > path {
+    fill: var(--darkreader-neutral-text) !important;
+}
+#edge-translate-panel-body {
+    color: var(--darkreader-neutral-text) !important;
+}
+/* End DarkReader */

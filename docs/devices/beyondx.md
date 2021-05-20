@@ -1,0 +1,25 @@
+---
+title: Samsung Galaxy S10 5G
+codename: beyondx
+recovery_size: 67633152
+
+chipset: Samsung Exynos 9820 (8nm)
+cpu: Octa-core (2x2.73 GHz Mongoose M4 & 2x2.31 GHz Cortex-A75 & 4x1.95 GHz Cortex-A55)
+gpu: Mali-G76 MP12
+ram: 8 GB
+shipped_version: 9.0 (OneUI 1.0)
+storage: 256/512 GB UFS 2.1
+sim: Single SIM (Nano-SIM)
+battery: 4500 mAh Li-Ion (non-removable)
+dimensions: 162.6 x 77.1 x 7.9 mm (6.40 x 3.04 x 0.31 in)
+display: 6.7 inches, 1440 x 3040 pixels, 19:9 ratio
+rear_cameras: 12 MP, f/1.5-2.4, 26mm (wide), 1/2.55", 1.4µm, Dual Pixel PDAF, OIS;
+              12 MP, f/2.4, 52mm (telephoto), 1/3.6", 1.0µm, AF, OIS, 2x optical zoom;
+              16 MP, f/2.2, 12mm (ultrawide), 1/3.1", 1.0µm, Super Steady video
+front_cameras: 10 MP, f/1.9, 26mm (wide), 1/3", 1.22µm, Dual Pixel PDAF;
+               8 MP, f/2.2, 22mm (wide), 1/4", 1.12µm, depth sensor
+fingerprint: Under display (ultrasonic)
+sensors: Accelerometer, Gyro, Proximity, Compass, Barometer
+---
+
+{% include deviceinfo.md %}
