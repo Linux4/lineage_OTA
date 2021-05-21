@@ -1,3 +1,10 @@
+## 2021-05-21
+- Fix external display output
+- Improve autobrightness even more by using values from star-common tree
+- Enable mac randomization
+- Switch to camera API1 for Snap
+- 2021-05-01 vendor securitypatch
+
 ## 2021-05-10
 - Bring back some livedisplay modes
 - Improved battery life
