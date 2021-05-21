@@ -6,7 +6,11 @@
 
 <a id="download-url" href="">No builds available</a>
 <br>
+<a id="download-url-sha256" href="" style="display: none;">sha256</a>
+<br>
 <a id="download-recovery-url" href="">No recovery builds available</a>
+<br>
+<a id="download-recovery-url-sha256" href="" style="display: none;">sha256</a>
 
 <script type="text/javascript">
 let url = "{{ site.lineage_ota_base_url | append: page.codename | append: ".json" }}";
@@ -15,6 +19,10 @@ fetch(url).then(response => response.json()).then((json) => {
     let downloadUrl = document.getElementById("download-url");
     downloadUrl.href = json.response[0].url;
     downloadUrl.innerHTML = "Download " + json.response[0].filename + " (" + (json.response[0].size / 1024 / 1024).toFixed(2) + "MB)";
+
+    let downloadUrlSHA256 = document.getElementById("download-url-sha256");
+    downloadUrlSHA256.href = json.response[0].url + ".sha256";
+    downloadUrlSHA256.style.display = "inline-block";
 
 {% if page.recovery_size %}
     let recoverySize = {{ page.recovery_size }};
@@ -26,6 +34,10 @@ fetch(url).then(response => response.json()).then((json) => {
 
     if (recoverySize > 0)
         downloadRecovery.innerHTML += " (" + (recoverySize / 1024 / 1024).toFixed(2) + "MB)";
+
+    let downloadRecoverySHA256 = document.getElementById("download-recovery-url-sha256");
+    downloadRecoverySHA256.href = downloadRecovery.href + ".sha256";
+    downloadRecoverySHA256.style.display = "inline-block";
 });
 </script>
 
