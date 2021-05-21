@@ -15,7 +15,7 @@ DATE=$(echo $FILENAME | cut -f3 -d '-')
 RECOVERY_NAME=$(echo $FILENAME | sed 's/UNOFFICIAL/recovery/g' | sed 's/\.zip/.img/g')
 RELEASENAME="$DEVICE-$DATE"
 
-$SCRIPTDIR/otainfo.sh $ZIP $RELEASENAME > $REPODIR/$DEVICE.json
+$SCRIPTDIR/otainfo.sh $ZIP $(hub browse -u) $RELEASENAME > $REPODIR/$DEVICE.json
 cp $BUILDDIR/recovery.img $BUILDDIR/$RECOVERY_NAME
 echo "$(sha256sum $ZIP | cut -f1 -d ' ') $FILENAME" > $REPODIR/$FILENAME.sha256
 echo "$(sha256sum $BUILDDIR/$RECOVERY_NAME | cut -f1 -d ' ') $RECOVERY_NAME" > $REPODIR/$RECOVERY_NAME.sha256
