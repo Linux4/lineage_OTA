@@ -3,7 +3,7 @@ title: Samsung Galaxy Tab S6 Lite (Wi-Fi)
 codename: gta4xlwifi
 recovery_size: 71106560
 
-chipset: Exynos 9611 (10nm)
+chipset: Samsung Exynos 9611 (10nm)
 cpu: Octa-core (4x2.3 GHz Cortex-A73 & 4x1.7 GHz Cortex-A53)
 gpu: Mali-G72 MP3
 ram: 4 GB
