@@ -20,14 +20,14 @@ echo "$(sha256sum $ZIP | cut -f1 -d ' ') $FILENAME" > $SCRIPTDIR/$FILENAME.sha25
 echo "$(sha256sum $DIR/$RECOVERY_NAME | cut -f1 -d ' ') $RECOVERY_NAME" > $SCRIPTDIR/$RECOVERY_NAME.sha256
 
 git -C $SCRIPTDIR add $DEVICE.json
-git commit -m "OTA: $DEVICE: $DATE"
-git tag "$RELEASENAME"
-git push origin HEAD:staging --tags
+git -C $SCRIPTDIR commit -m "OTA: $DEVICE: $DATE"
+git -C $SCRIPTDIR tag "$RELEASENAME"
+git -C $SCRIPTDIR push origin HEAD:staging --tags
 
-hub release create -a $DIR/$RECOVERY_NAME -a $SCRIPTDIR/$RECOVERY_NAME.sha256 -a $ZIP -a $SCRIPTDIR/$FILENAME.sha256 -m "$DEVICE: $DATE" -t $(git rev-parse HEAD) $RELEASENAME
+hub -C $SCRIPTDIR release create -a $DIR/$RECOVERY_NAME -a $SCRIPTDIR/$RECOVERY_NAME.sha256 -a $ZIP -a $SCRIPTDIR/$FILENAME.sha256 -m "$DEVICE: $DATE" -t $(git rev-parse HEAD) $RELEASENAME
 
-git push origin HEAD:master --tags
-git push origin --delete staging
+git -C $SCRIPTDIR push origin HEAD:master --tags
+git -C $SCRIPTDIR push origin --delete staging
 
 rm $SCRIPTDIR/$FILENAME.sha256
 rm $SCRIPTDIR/$RECOVERY_NAME.sha256
