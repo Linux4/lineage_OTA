@@ -1,6 +1,7 @@
 ---
 title: Samsung Galaxy Tab S6 Lite (LTE)
 codename: gta4xl
+models: SM-P615
 recovery_size: 71106560
 
 chipset: Samsung Exynos 9611 (10nm)

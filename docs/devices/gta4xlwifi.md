@@ -1,6 +1,7 @@
 ---
 title: Samsung Galaxy Tab S6 Lite (Wi-Fi)
 codename: gta4xlwifi
+models: SM-P610
 recovery_size: 71106560
 
 chipset: Samsung Exynos 9611 (10nm)

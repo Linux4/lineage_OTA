@@ -1,6 +1,7 @@
 ---
 title: Samsung Galaxy S10+
 codename: beyond2lte
+models: SM-G975F
 recovery_size: 67633152
 
 chipset: Samsung Exynos 9820 (8nm)

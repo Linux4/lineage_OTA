@@ -2,7 +2,8 @@
 
 # {{ page.title }} ({{ page.codename }})
 
-[Changelog]({{ "/changes/" | append: page.codename | append: ".html" | relative_url }})
+[Changelog]({{ "/changes/" | append: page.codename | append: ".html" | relative_url }})  
+[Update Firmware]({{ "/fw_update/" | append: page.codename | append: ".html" | relative_url }})  
 
 <a id="download-url" href="">No builds available</a>
 <br>

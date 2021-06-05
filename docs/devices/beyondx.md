@@ -1,6 +1,7 @@
 ---
 title: Samsung Galaxy S10 5G
 codename: beyondx
+models: SM-G977B
 recovery_size: 67633152
 
 chipset: Samsung Exynos 9820 (8nm)

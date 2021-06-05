@@ -1,6 +1,7 @@
 ---
 title: Samsung Galaxy S10e
 codename: beyond0lte
+models: SM-G970F
 recovery_size: 67633152
 
 chipset: Samsung Exynos 9820 (8nm)
