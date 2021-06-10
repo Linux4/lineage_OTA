@@ -1,3 +1,15 @@
+## 2021-06-10
+- Fixed DSU
+- Linux 4.14.235
+- 2021-06-10 system securitypatch
+- 2021-05-01 vendor securitypatch
+- Switch to camera API1 for Snap
+- Disable Wi-Fi Display (it never worked anyways)
+- Fixed "Format system partition" in recovery
+{% if page.codename == "gta4xl" %}
+- Enabled call recording
+{% endif %}
+
 ## 2021-05-09
 - Improved audio quality
 - Improved battery life
