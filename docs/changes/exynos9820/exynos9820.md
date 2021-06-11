@@ -1,3 +1,13 @@
+## 2021-06-11
+- 2021-06-05 system securitypatch
+- 2021-06-01 vendor securitypatch
+- Linux 4.14.235
+- Fixed WPA3 (SAE)
+- Enabled call recording
+{% if page.codename == "beyondx" %}
+- ToF camera should now be available
+{% endif %}
+
 ## 2021-05-21
 - Fix external display output
 - Improve autobrightness even more by using values from star-common tree
