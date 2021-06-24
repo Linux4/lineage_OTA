@@ -11,6 +11,7 @@ ram: 12 GB
 shipped_version: 9.0 (OneUI 1.0)
 storage: 256/512 GB UFS 3.0
 sim: Single SIM (Nano-SIM)
+microsd: Up to 512 GB
 battery: 4300 mAh Li-Ion (non-removable)
 dimensions: 162.3 x 77.2 x 7.9 mm (6.39 x 3.04 x 0.31 in)
 display: 6.4 inches, 1440 x 3040 pixels, 19:9 ratio
