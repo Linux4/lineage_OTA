@@ -1,3 +1,9 @@
+## 2021-07-08
+- Do not force enable lockscreen rotation
+- Enable bluetooth le peripheral mode
+- Linux 4.14.236
+- 2021-07-05 system securitypatch
+
 ## 2021-06-10
 - Fixed DSU
 - Linux 4.14.235
