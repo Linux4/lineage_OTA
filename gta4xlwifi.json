@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": "1623306683",
-      "filename": "lineage-18.1-20210610-UNOFFICIAL-gta4xlwifi.zip",
-      "id": "ec7b31116e7fb06d8a33adb14e89075fb635d5a13bad143b93a86c60341ec6fa",
+      "datetime": "1625721384",
+      "filename": "lineage-18.1-20210708-UNOFFICIAL-gta4xlwifi.zip",
+      "id": "d813033e16da5dd17a1fc6934758f61a72b70579897530fa2f258660f4423e6c",
       "romtype": "UNOFFICIAL",
-      "size": "678980506",
-      "url": "https://github.com/Linux4/lineage_OTA/releases/download/gta4xlwifi-20210610/lineage-18.1-20210610-UNOFFICIAL-gta4xlwifi.zip",
+      "size": "679313342",
+      "url": "https://github.com/Linux4/lineage_OTA/releases/download/gta4xlwifi-20210708/lineage-18.1-20210708-UNOFFICIAL-gta4xlwifi.zip",
       "version": "18.1"
     }
   ]
