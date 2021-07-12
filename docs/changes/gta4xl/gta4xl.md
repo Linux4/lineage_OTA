@@ -1,3 +1,7 @@
+## 2021-07-12
+- Fixed BT SCO
+- Fixed USB gadget modes being broken after using MTP
+
 ## 2021-07-08
 - Do not force enable lockscreen rotation
 - Enable bluetooth le peripheral mode
