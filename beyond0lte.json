@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": "1625727387",
-      "filename": "lineage-18.1-20210708-UNOFFICIAL-beyond0lte.zip",
-      "id": "a4eee6a81158f652e4028f326cf5ed07b82b0645bc2cb61568e1d1f9c3d997be",
+      "datetime": "1626682859",
+      "filename": "lineage-18.1-20210719-UNOFFICIAL-beyond0lte.zip",
+      "id": "315aaf21e3bf31ab4f386b455cb8aff2752bf541cd52de99e1c1eba32d9945d1",
       "romtype": "UNOFFICIAL",
-      "size": "724895299",
-      "url": "https://github.com/Linux4/lineage_OTA/releases/download/beyond0lte-20210708/lineage-18.1-20210708-UNOFFICIAL-beyond0lte.zip",
+      "size": "724872945",
+      "url": "https://github.com/Linux4/lineage_OTA/releases/download/beyond0lte-20210719/lineage-18.1-20210719-UNOFFICIAL-beyond0lte.zip",
       "version": "18.1"
     }
   ]
