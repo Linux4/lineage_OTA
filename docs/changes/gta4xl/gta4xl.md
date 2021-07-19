@@ -1,3 +1,12 @@
+## 2021-07-19
+- Fixed that E:[liblp]Logical partition metadata has invalid geometry magic
+  error when flashing OTAs for example, needs reflashing of stock or at least
+  stock super.img to make the error disappear tho
+{% if page.codename == "gta4xl" %}
+- Fixed really bad bluetooth connection which was caused by missing bluetooth
+  firmware
+{% endif %}
+
 ## 2021-07-12
 - Fixed BT SCO
 - Fixed USB gadget modes being broken after using MTP
