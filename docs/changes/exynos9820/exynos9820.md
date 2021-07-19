@@ -1,3 +1,7 @@
+## 2021-07-19
+- Reverted front camera back to normal (6.50MP+10MP, 6.50MP one being used by default in apps)
+  because of issues in some apps
+
 ## 2021-07-08
 - 2021-07-05 system securitypatch
 - 2021-07-01 vendor securitypatch
