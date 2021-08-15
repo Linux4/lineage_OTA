@@ -1,3 +1,9 @@
+## 2021-08-15
+- 2021-08-05 system securitypatch
+- Enabled dt2w on full screen
+- Enabled dolby audio effect
+- Linux 4.14.241
+
 ## 2021-07-19
 - Reverted front camera back to normal (6.50MP+10MP, 6.50MP one being used by default in apps)
   because of issues in some apps
