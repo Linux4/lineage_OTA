@@ -1,3 +1,9 @@
+## 2021-08-15
+- 2021-08-05 system securitypatch
+- 2021-07-01 vendor securitypatch
+- Enabled dolby atmos audio effect
+- Linux 4.14.243
+
 ## 2021-07-19
 - Fixed that E:[liblp]Logical partition metadata has invalid geometry magic
   error when flashing OTAs for example, needs reflashing of stock or at least
