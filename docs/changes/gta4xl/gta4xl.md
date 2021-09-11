@@ -1,3 +1,8 @@
+## 2021-09-11
+- 2021-09-05 system securitypatch
+- Enable support for wifi display / miracast
+- Linux 4.14.244
+
 ## 2021-08-15
 - 2021-08-05 system securitypatch
 - 2021-07-01 vendor securitypatch
