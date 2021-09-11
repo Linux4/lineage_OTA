@@ -1,3 +1,9 @@
+## 2021-09-11
+- 2021-09-05 system securitypatch
+- 2021-08-01 vendor securitypatch
+- Enable support for wifi display / miracast
+- Linux 4.14.245
+
 ## 2021-08-15
 - 2021-08-05 system securitypatch
 - Enabled dt2w on full screen
