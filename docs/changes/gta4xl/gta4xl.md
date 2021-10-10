@@ -1,3 +1,10 @@
+## 2021-10-10
+- 2021-10-05 system securitypatch
+- 2021-09-01 vendor securitypatch
+- Linux 4.14.248
+- Improved SPen palm rejection
+- Lowered minimum brightness
+
 ## 2021-09-11
 - 2021-09-05 system securitypatch
 - Enable support for wifi display / miracast
