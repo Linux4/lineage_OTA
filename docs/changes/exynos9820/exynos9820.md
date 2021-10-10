@@ -1,3 +1,9 @@
+## 2021-10-10
+- 2021-10-05 system securitypatch
+- 2021-09-01 vendor securitypatch
+- Linux 4.14.248
+- Include patched camera libraries for RAW support on all lenses
+
 ## 2021-09-11
 - 2021-09-05 system securitypatch
 - 2021-08-01 vendor securitypatch
