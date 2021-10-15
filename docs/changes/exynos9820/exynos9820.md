@@ -1,3 +1,8 @@
+{% if page.codename == "d1" or page.codename == "d2s" or page.codename == "d2x" %}
+## 2021-10-15
+- Fixed audio
+{% endif %}
+
 ## 2021-10-14
 - Initial LineageOS 19.0 build
 
@@ -28,7 +33,7 @@
 - 2021-07-01 vendor securitypatch
 - Linux 4.14.238
 - Place volume panel on the left by default
-{% if page.codename == "d1" or page.codename == "d2s" or page.codename == "d2x" or page.codename == "beyondx" %}
+{% if page.codename == "d2s" or page.codename == "d2x" or page.codename == "beyondx" %}
 - Fixed ToF camera
 {% if page.codename != "beyondx" %}
 - Fixed SPen in landscape orientation
