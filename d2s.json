@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": "1634247459",
-      "filename": "lineage-19.0-20211014-UNOFFICIAL-d2s.zip",
-      "id": "763df0c3a43611ee0fc1fa351d97558071a2035c24600e54d3cfdefe07b16452",
+      "datetime": "1634320765",
+      "filename": "lineage-19.0-20211015-UNOFFICIAL-d2s.zip",
+      "id": "d8bd129afee1ce729721d12582910ef80c035bce78b69e32f9f564e2509c5f45",
       "romtype": "UNOFFICIAL",
-      "size": "754756081",
-      "url": "https://github.com/Linux4/lineage_OTA/releases/download/d2s-20211014/lineage-19.0-20211014-UNOFFICIAL-d2s.zip",
+      "size": "754757072",
+      "url": "https://github.com/Linux4/lineage_OTA/releases/download/d2s-20211015/lineage-19.0-20211015-UNOFFICIAL-d2s.zip",
       "version": "19.0"
     }
   ]
