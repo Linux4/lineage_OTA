@@ -1,3 +1,8 @@
+## 2021-10-17
+- Lineage Recovery
+- Fixed Updater
+- Fixed exFAT
+
 {% if page.codename == "d1" or page.codename == "d2s" or page.codename == "d2x" %}
 ## 2021-10-15
 - Fixed audio
