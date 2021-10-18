@@ -1,3 +1,6 @@
+## 2021-10-18
+- Initial LineageOS 19.0 build
+
 ## 2021-10-10
 - 2021-10-05 system securitypatch
 - 2021-09-01 vendor securitypatch
