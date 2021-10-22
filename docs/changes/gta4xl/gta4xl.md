@@ -1,3 +1,9 @@
+## 2021-10-22
+- Added reserved space for gapps
+{% if page.codename == "gta4xl" %}
+- Fixed RIL
+{% endif %}
+
 ## 2021-10-18
 - Initial LineageOS 19.0 build
 
