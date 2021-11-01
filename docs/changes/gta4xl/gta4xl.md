@@ -1,3 +1,9 @@
+## 2021-11-01
+- Synced with LineageOS sources
+- Properly support Material You
+- Enable adoptable storage
+- Enable Dolby audio effect
+
 ## 2021-10-22
 - Added reserved space for gapps
 {% if page.codename == "gta4xl" %}

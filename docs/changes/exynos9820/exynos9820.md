@@ -1,3 +1,9 @@
+## 2021-11-01
+- Synced with LineageOS sources
+- Properly support Material You
+- Enable adoptable storage
+- Enable Dolby audio effect
+
 ## 2021-10-17
 - Lineage Recovery
 - Fixed Updater
