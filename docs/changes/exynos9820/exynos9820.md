@@ -1,4 +1,11 @@
+## 2021-11-06
+- 2021-11-05 system securitypatch
+- Linux 4.14.253
+- Synced with LineageOS sources
+- Fixed BT incall audio issues
+
 ## 2021-11-01
+- 2021-10-01 vendor securitypatch
 - Synced with LineageOS sources
 - Properly support Material You
 - Enable adoptable storage

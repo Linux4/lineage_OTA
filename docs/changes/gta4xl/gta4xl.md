@@ -1,3 +1,7 @@
+## 2021-11-06
+- 2021-11-05 system securitypatch
+- Synced with LineageOS sources
+
 ## 2021-11-01
 - Synced with LineageOS sources
 - Properly support Material You
