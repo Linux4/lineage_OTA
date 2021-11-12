@@ -1,3 +1,8 @@
+## 2021-11-12
+- Synced with LineageOS sources
+- Fixed remaining issues for new hardware revisions
+- Linux 4.14.254
+
 ## 2021-11-06
 - 2021-11-05 system securitypatch
 - Synced with LineageOS sources
