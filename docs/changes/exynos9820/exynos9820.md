@@ -1,3 +1,8 @@
+## 2021-11-27
+- Synced with LineageOS sources
+- Fixed an issue where google maps would switch screen resolution to 720p
+- Misc small improvements
+
 ## 2021-11-12
 - Synced with LineageOS sources
 
