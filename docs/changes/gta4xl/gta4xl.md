@@ -2,6 +2,7 @@
 - Synced with LineageOS sources
 - Linux 4.14.255
 - Misc small improvements
+- microG signature spoofing support
 
 ## 2021-11-12
 - Synced with LineageOS sources
