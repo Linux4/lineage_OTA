@@ -1,3 +1,10 @@
+## 2021-12-04
+- Synced with LineageOS sources
+- Improve single/dual SIM detection, this should allow using RIL on korean single SIM variants (SM-G97XN, SM-N97XN)
+{% if page.codename == "beyond0lte" %}
+- Add support for fingerprint gestures
+{% endif %}
+
 ## 2021-11-27
 - Synced with LineageOS sources
 - Fixed an issue where google maps would switch screen resolution to 720p
