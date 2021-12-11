@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": "1638619960",
-      "filename": "lineage-19.0-20211204-UNOFFICIAL-d1.zip",
-      "id": "bc475eabc33ef1e48df5092573dd66d3e0f1db1585bc42a01a7f4e41b5c00589",
+      "datetime": "1639258807",
+      "filename": "lineage-19.0-20211211-UNOFFICIAL-d1.zip",
+      "id": "540c572ed39bde6daeca3bfb0f1c8593f056944129ea2504dcb8a55e38d8fd1d",
       "romtype": "UNOFFICIAL",
-      "size": "772460393",
-      "url": "https://github.com/Linux4/lineage_OTA/releases/download/d1-20211204/lineage-19.0-20211204-UNOFFICIAL-d1.zip",
+      "size": "776211851",
+      "url": "https://github.com/Linux4/lineage_OTA/releases/download/d1-20211211/lineage-19.0-20211211-UNOFFICIAL-d1.zip",
       "version": "19.0"
     }
   ]
