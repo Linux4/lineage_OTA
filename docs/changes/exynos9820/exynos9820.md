@@ -1,3 +1,9 @@
+## 2021-12-11
+- Synced with LineageOS sources
+- Linux 4.14.256 (android-4.14-q)
+- 2021-12-05 system securitypatch
+- Fix mac randomization not always applying the new MAC
+
 ## 2021-12-04
 - Synced with LineageOS sources
 - Improve single/dual SIM detection, this should allow using RIL on korean single SIM variants (SM-G97XN, SM-N97XN)

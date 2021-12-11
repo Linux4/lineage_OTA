@@ -1,3 +1,7 @@
+## 2021-12-11
+- Synced with LineageOS sources
+- 2021-12-05 system securitypatch
+
 ## 2021-12-04
 - Synced with LineageOS sources
 - Linux 4.14.256
