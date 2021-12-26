@@ -19,10 +19,6 @@ in the directory you extracted it to.
 <p id="fw-install-odin-{{ model }}">
 Flash %fwname% in BL slot.
 </p>
-<p>
-<b style="color: red">It is recommended that you reflash latest LineageOS after updating firmware, otherwise
-you may run into issues and in worst case your device will not boot anymore.</b>
-</p>
 
 <script type="text/javascript">
 let fwurl = "{{ site.firmware-update-raw | append: model }}";
