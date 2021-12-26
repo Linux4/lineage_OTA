@@ -1,3 +1,6 @@
+## 2021-12-26
+- Synced with LineageOS sources
+
 ## 2021-12-19
 - Synced with LineageOS sources
 - Switched to android-12.0.0_r18 (instead of r16)
