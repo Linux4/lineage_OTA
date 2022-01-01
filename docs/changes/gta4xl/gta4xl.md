@@ -1,3 +1,6 @@
+## 2022-01-01
+- Fixed RIL on LTE variant once again
+
 ## 2021-12-31
 - Synced with LineageOS sources
 - Linux 4.14.260

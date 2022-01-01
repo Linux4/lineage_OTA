@@ -1,3 +1,6 @@
+## 2022-01-01
+- Fixed RIL on single SIM models (beyondx/d2x), this should also fix RIL for korean single SIM variants (SM-G97XN, SM-N97XN)
+
 ## 2021-12-31
 - Synced with LineageOS sources
 - Linux 4.14.260
