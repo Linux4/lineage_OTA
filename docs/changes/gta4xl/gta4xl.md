@@ -1,3 +1,7 @@
+## 2022-01-09
+- Synced with LineageOS sources
+- 2022-01-05 system securitypatch
+
 ## 2022-01-01
 - Fixed RIL on LTE variant once again
 

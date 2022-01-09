@@ -1,3 +1,9 @@
+## 2022-01-09
+- Synced with LineageOS sources
+- 2022-01-05 system securitypatch
+- 2021-12-01 vendor securitypatch
+- Switched to OneUI 4 blobs and kernel
+
 ## 2022-01-01
 - Fixed RIL on single SIM models (beyondx/d2x), this should also fix RIL for korean single SIM variants (SM-G97XN, SM-N97XN)
 
