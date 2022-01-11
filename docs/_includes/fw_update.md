@@ -5,6 +5,11 @@
 {% assign models = page.models | split: ";" %}
 {% for model in models %}
 <h2>Download latest Firmware for {{ model }}</h2>
+{% if page.require_lineage_version %}
+<p>
+<b style="color: red">This firmware can only be used with LineageOS {{ page.require_lineage_version }}!</b>
+</p>
+{% endif %}
 <a id="fw-download-{{ model }}" href="">No firmware available</a>
 <br>
 <a id="fw-download-sha256-{{ model }}" href="" style="display: none;">sha256</a>
