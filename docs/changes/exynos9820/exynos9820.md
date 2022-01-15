@@ -1,3 +1,8 @@
+## 2022-01-15
+- Synced with LineageOS sources
+- android-12.0.0_r27
+- Disallow flashing with TWRP
+
 ## 2022-01-09
 - Synced with LineageOS sources
 - 2022-01-05 system securitypatch
