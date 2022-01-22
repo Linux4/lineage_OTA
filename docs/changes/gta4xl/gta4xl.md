@@ -1,3 +1,6 @@
+## 2022-01-22
+- Synced with LineageOS sources
+
 ## 2022-01-15
 - Synced with LineageOS sources
 - android-12.0.0_r27
