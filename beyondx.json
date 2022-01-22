@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": "1642249802",
-      "filename": "lineage-19.0-20220115-UNOFFICIAL-beyondx.zip",
-      "id": "5c839920e8d0fe91f02e724bf55b45c10ea71764dbde365e2ce298d545270e1a",
+      "datetime": "1642838446",
+      "filename": "lineage-19.0-20220122-UNOFFICIAL-beyondx.zip",
+      "id": "579074586368277ae91ac5ee0914ebfb0f06d0c7274fd7c1f5086b2b4dddb498",
       "romtype": "UNOFFICIAL",
-      "size": "800245883",
-      "url": "https://github.com/Linux4/lineage_OTA/releases/download/beyondx-20220115/lineage-19.0-20220115-UNOFFICIAL-beyondx.zip",
+      "size": "800713296",
+      "url": "https://github.com/Linux4/lineage_OTA/releases/download/beyondx-20220122/lineage-19.0-20220122-UNOFFICIAL-beyondx.zip",
       "version": "19.0"
     }
   ]
