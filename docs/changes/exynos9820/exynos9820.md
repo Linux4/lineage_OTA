@@ -1,3 +1,7 @@
+## 2022-02-05
+- Synced with LineageOS sources
+- 2022-01-01 vendor securitypatch
+
 ## 2022-01-29
 - Synced with LineageOS sources
 - Fixed some issues with adoptable storage
