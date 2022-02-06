@@ -1,3 +1,6 @@
+## 2022-02-06
+- Fixed GPS on LTE variant
+
 ## 2022-02-05
 - Synced with LineageOS sources
 

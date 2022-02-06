@@ -1,3 +1,6 @@
+## 2022-02-06
+- Removed mistakenly added HWC2 night light option
+
 ## 2022-02-05
 - Synced with LineageOS sources
 - 2022-01-01 vendor securitypatch
