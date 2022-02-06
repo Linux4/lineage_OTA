@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": "1644056352",
-      "filename": "lineage-19.0-20220205-UNOFFICIAL-gta4xl.zip",
-      "id": "ba027bb4f2769afad11157f6d97ff73ac3e4e9ae6b8b4f0705ee7ef93ea2e5e0",
+      "datetime": "1644150432",
+      "filename": "lineage-19.0-20220206-UNOFFICIAL-gta4xl.zip",
+      "id": "6a27915daa108783d9f20db88e67891cbee84b2576c98d708e9d46c3af40ed69",
       "romtype": "UNOFFICIAL",
-      "size": "772163399",
-      "url": "https://github.com/Linux4/lineage_OTA/releases/download/gta4xl-20220205/lineage-19.0-20220205-UNOFFICIAL-gta4xl.zip",
+      "size": "772148825",
+      "url": "https://github.com/Linux4/lineage_OTA/releases/download/gta4xl-20220206/lineage-19.0-20220206-UNOFFICIAL-gta4xl.zip",
       "version": "19.0"
     }
   ]
