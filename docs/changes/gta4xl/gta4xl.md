@@ -1,3 +1,8 @@
+## 2022-02-12
+- Synced with LineageOS sources
+- 2022-02-05 system securitypatch
+- 2022-01-01 vendor securitypatch
+
 ## 2022-02-06
 - Fixed GPS on LTE variant
 
