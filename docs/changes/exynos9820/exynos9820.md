@@ -1,3 +1,11 @@
+## 2022-02-19
+- Synced with LineageOS sources
+- Require Android 12 Firmware
+- 2022-02-01 vendor securitypatch
+{% if page.codename == "d1" or page.codename == "d2s" or page.codename == "d2x" %}
+- Add experimental support for S Pen Bluetooth gestures (see Settings -> System -> Gestures)
+{% endif %}
+
 ## 2022-02-12
 - Synced with LineageOS sources
 - 2022-02-05 system securitypatch
