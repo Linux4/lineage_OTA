@@ -1,3 +1,8 @@
+## 2022-02-26
+- Synced with LineageOS sources
+- Improved Bluetooth audio quality
+- Increased incall volume
+
 ## 2022-02-19
 - Synced with LineageOS sources
 - Require Android 12 Firmware
