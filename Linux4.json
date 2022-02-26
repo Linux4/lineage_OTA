@@ -1,0 +1,13 @@
+{
+  "response": [
+    {
+      "datetime": "1645858193",
+      "filename": "lineage-19.0-20220226-UNOFFICIAL-Linux4-beyond1lte.zip",
+      "id": "29e1c0a0c0f314790f86129ef96839b2fe3795fa5316b26710b00778c3b521a4",
+      "romtype": "UNOFFICIAL",
+      "size": "810864683",
+      "url": "https://github.com/Linux4/lineage_OTA/releases/download/Linux4-20220226/lineage-19.0-20220226-UNOFFICIAL-Linux4-beyond1lte.zip",
+      "version": "19.0"
+    }
+  ]
+}
