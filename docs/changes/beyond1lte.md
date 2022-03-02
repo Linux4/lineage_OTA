@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Changelog for Samsung Galaxy S10
 codename: beyond1lte
 ---

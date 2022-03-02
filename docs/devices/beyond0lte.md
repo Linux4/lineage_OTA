@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Samsung Galaxy S10e
 codename: beyond0lte
 models: SM-G970F

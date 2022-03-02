@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Changelog for Samsung Galaxy Note10+
 codename: d2s
 ---

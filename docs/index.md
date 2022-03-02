@@ -1,4 +1,5 @@
 ---
+layout: default
 title: LineageOS builds by Linux4
 ---
 

@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Changelog for Samsung Galaxy Tab S6 Lite (Wi-Fi)
 codename: gta4xlwifi
 ---

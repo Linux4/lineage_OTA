@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Samsung Galaxy Note10+
 codename: d2s
 models: SM-N975F

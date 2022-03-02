@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Samsung Galaxy S10
 codename: beyond1lte
 models: SM-G973F
