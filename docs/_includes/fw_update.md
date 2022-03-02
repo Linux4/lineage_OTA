@@ -10,44 +10,26 @@
 <b style="color: red">This firmware can only be used with LineageOS {{ page.require_lineage_version }}!</b>
 </p>
 {% endif %}
-<a id="fw-download-{{ model }}" href="">No firmware available</a>
+{% assign fw_url = site.firmware-update-raw | append: model %}
+{% fetch fwversion fw_url %}
+{% assign versions = fwversion | split: '/' %}
+{% assign pda = versions[0] %}
+{% assign fwname = "firmware-" | append: model | append: "-" | append: pda | append: ".tar" %}
+{% assign release_url = site.firmware-update-releases | append: pda %}
+{% fetch fwinfo release_url %}
+{% json fwjson fwinfo %}
+<a href="{{ site.firmware-update-download }}/{{ pda }}/{{ fwname }}">Download firmware {{ pda }}</a>
 <br>
-<a id="fw-download-sha256-{{ model }}" href="" style="display: none;">sha256</a>
+<a href="{{ site.firmware-update-download }}/{{ pda }}/{{ fwname }}.sha256">sha256</a>
 <br>
 <h4>Installing with Heimdall</h4>
-<p id="fw-install-heimdall-{{ model }}">
-Extract %fwname% and run<br>
-<code>%heimdallcmd%</code><br>
+<p>
+Extract {{ fwname }} and run<br>
+<code>{{ fwjson.body }}</code><br>
 in the directory you extracted it to.
 </p>
 <h4>Installing with Odin</h4>
-<p id="fw-install-odin-{{ model }}">
-Flash %fwname% in BL slot.
+<p>
+Flash {{ fwname }} in BL slot.
 </p>
-
-<script type="text/javascript">
-let fwurl = "{{ site.firmware-update-raw | append: model }}";
-
-fetch (fwurl).then(response => response.text()).then((text) => {
-    let pda = text.split("/")[0];
-    let fwName = "firmware-{{ model }}-" + pda;
-    let fwDownload = document.getElementById("fw-download-{{ model }}");
-    fwDownload.href = "{{ site.firmware-update-download }}" + pda + "/" + fwName + ".tar";
-    fwDownload.innerHTML = "Download firmware " + pda;
-
-    let fwDownloadSHA256 = document.getElementById("fw-download-sha256-{{ model }}");
-    fwDownloadSHA256.href = fwDownload.href + ".sha256";
-    fwDownloadSHA256.style.display = "inline-block";
-
-    let releaseUrl = "{{ site.firmware-update-releases }}" + pda;
-
-    fetch(releaseUrl).then(response => response.json()).then((json) => {
-        let fwInstallHeimdall = document.getElementById("fw-install-heimdall-{{ model }}");
-        fwInstallHeimdall.innerHTML = fwInstallHeimdall.innerHTML.replace("%fwname%", fwName + ".tar").replace("%heimdallcmd%", json.body);
-
-        let fwInstallOdin = document.getElementById("fw-install-odin-{{ model }}");
-        fwInstallOdin.innerHTML = fwInstallOdin.innerHTML.replace("%fwname%", fwName + ".tar");
-    });
-});
-</script>
 {% endfor %}
