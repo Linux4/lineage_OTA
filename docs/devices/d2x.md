@@ -2,27 +2,6 @@
 layout: default
 title: Samsung Galaxy Note10+ 5G
 codename: d2x
-models: SM-N976B
-recovery_size: 67633152
-
-chipset: Samsung Exynos 9825 (7nm)
-cpu: Octa-core (2x2.73 GHz Mongoose M4 & 2x2.4 GHz Cortex-A75 & 4x1.95 GHz Cortex-A55)
-gpu: Mali-G76 MP12
-ram: 12 GB
-shipped_version: 9.0 (OneUI 1.0)
-storage: 256/512 GB UFS 3.0
-sim: Single SIM (Nano-SIM)
-microsd: Up to 512 GB
-battery: 4300 mAh Li-Ion (non-removable)
-dimensions: 162.3 x 77.2 x 7.9 mm (6.39 x 3.04 x 0.31 in)
-display: 6.8 inches, 1440 x 3040 pixels, 19:9 ratio
-rear_cameras: 12 MP, f/1.5-2.4, 27mm (wide), 1/2.55", 1.4µm, Dual Pixel PDAF, OIS;
-              12 MP, f/2.4, 52mm (telephoto), 1/3.6", 1.0µm, AF, OIS, 2x optical zoom;
-              16 MP, f/2.2, 12mm (ultrawide), 1/3.1", 1.0µm, Super Steady video;
-              0.3 MP, TOF 3D, (depth)
-front_cameras: 10 MP, f/2.2, 26mm (wide), 1/3", 1.22µm, Dual Pixel PDAF
-fingerprint: Under display (ultrasonic)
-sensors: Accelerometer, Gyro, Proximity, Compass, Barometer
 ---
 
 {% include deviceinfo.md %}

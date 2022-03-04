@@ -1,3 +1,4 @@
+{% assign device = site.data.devices[page.codename] %}
 [Home]({{ "/" | relative_url }})
 
 # {{ page.title }} ({{ page.codename }})
@@ -26,75 +27,73 @@
         </tr>
         <tr>
             <td align="left">Chipset</td>
-            <td align="left">{{ page.chipset }}</td>
+            <td align="left">{{ device.chipset }}</td>
         </tr>
         <tr>
             <td align="left">CPU</td>
-            <td align="left">{{ page.cpu }}</td>
+            <td align="left">{{ device.cpu }}</td>
         </tr>
         <tr>
             <td align="left">GPU</td>
-            <td align="left">{{ page.gpu }}</td>
+            <td align="left">{{ device.gpu }}</td>
         </tr>
         <tr>
             <td align="left">RAM</td>
-            <td align="left">{{ page.ram }}</td>
+            <td align="left">{{ device.ram }}</td>
         </tr>
         <tr>
             <td align="left">Shipped Android Version</td>
-            <td align="left">{{ page.shipped_version }}</td>
+            <td align="left">{{ device.shipped_version }}</td>
         </tr>
         <tr>
             <td align="left">Storage</td>
-            <td align="left">{{ page.storage }}</td>
+            <td align="left">{{ device.storage }}</td>
         </tr>
-{% if page.sim %}
+{% if device.sim %}
         <tr>
             <td align="left">SIM</td>
-            <td align="left">{{ page.sim }}</td>
+            <td align="left">{{ device.sim }}</td>
         </tr>
 {% endif %}
-{% if page.microsd %}
+{% if device.microsd %}
         <tr>
             <td align="left">MicroSD</td>
-            <td align="left">{{ page.microsd }}</td>
+            <td align="left">{{ device.microsd }}</td>
         </tr>
 {% endif %}
         <tr>
             <td align="left">Battery</td>
-            <td align="left">{{ page.battery }}</td>
+            <td align="left">{{ device.battery }}</td>
         </tr>
         <tr>
             <td align="left">Dimensions</td>
-            <td align="left">{{ page.dimensions }}</td>
+            <td align="left">{{ device.dimensions }}</td>
         </tr>
         <tr>
             <td align="left">Display</td>
-            <td align="left">{{ page.display }}</td>
+            <td align="left">{{ device.display }}</td>
         </tr>
-{% assign rear_cameras = page.rear_cameras | split: ";" %}
-{% for rear_camera in rear_cameras %}
+{% for rear_camera in device.rear_cameras %}
         <tr>
             <td align="left">Rear Camera</td>
             <td align="left">{{ rear_camera }}</td>
         </tr>
 {% endfor %}
-{% assign front_cameras = page.front_cameras | split: ";" %}
-{% for front_camera in front_cameras %}
+{% for front_camera in device.front_cameras %}
         <tr>
             <td align="left">Front Camera</td>
             <td align="left">{{ front_camera }}</td>
         </tr>
 {% endfor %}
-{% if page.fingerprint %}
+{% if device.fingerprint %}
         <tr>
             <td align="left">Fingerprint</td>
-            <td align="left">{{ page.fingerprint }}</td>
+            <td align="left">{{ device.fingerprint }}</td>
         </tr>
 {% endif %}
         <tr>
             <td align="left">Sensors</td>
-            <td align="left">{{ page.sensors }}</td>
+            <td align="left">{{ device.sensors }}</td>
         </tr>
     </tbody>
 </table>

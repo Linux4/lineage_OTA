@@ -83,11 +83,11 @@ DEPENDENCIES
   jekyll-feed (~> 0.16.0)
   jekyll-theme-cayman
   kramdown-parser-gfm
-  minima (~> 2.5.0)
+  minima (~> 2.5.1)
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.0)
-  webrick
+  webrick (~> 1.7.0)
 
 BUNDLED WITH
    2.3.5

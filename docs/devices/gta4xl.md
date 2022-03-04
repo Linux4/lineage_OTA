@@ -2,23 +2,6 @@
 layout: default
 title: Samsung Galaxy Tab S6 Lite (LTE)
 codename: gta4xl
-models: SM-P615
-recovery_size: 71106560
-
-chipset: Samsung Exynos 9611 (10nm)
-cpu: Octa-core (4x2.3 GHz Cortex-A73 & 4x1.7 GHz Cortex-A53)
-gpu: Mali-G72 MP3
-ram: 4 GB
-shipped_version: 10.0 (OneUI 2.0)
-storage: 64/128 GB UFS 2.0
-sim: Single SIM (Nano-SIM)
-microsd: Up to 1TB
-battery: 7040 mAh Li-Ion (non-removable)
-dimensions: 244.5 x 154.3 x 7 mm (9.63 x 6.07 x 0.28 in)
-display: 10.4 inches, 1200 x 2000 pixels, 5:3 ratio
-rear_cameras: 8 MP, (wide), 1/4.0", 1.12µm
-front_cameras: 5 MP
-sensors: Accelerometer, Proximity, Gyro
 ---
 
 {% include deviceinfo.md %}
