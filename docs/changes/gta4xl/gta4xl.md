@@ -1,3 +1,6 @@
+## 2022-03-05
+- Synced with LineageOS sources
+
 ## 2022-02-26
 - Synced with LineageOS sources
 
