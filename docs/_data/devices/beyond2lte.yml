@@ -1,4 +1,6 @@
-models: SM-G975F
+models:
+  - SM-G975F
+  - SM-G975N
 recovery_size: 67633152
 
 chipset: Samsung Exynos 9820 (8nm)

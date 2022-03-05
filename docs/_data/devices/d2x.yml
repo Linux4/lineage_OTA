@@ -1,4 +1,6 @@
-models: SM-N976B
+models:
+  - SM-N976B
+  - SM-N976N
 recovery_size: 67633152
 
 chipset: Samsung Exynos 9825 (7nm)

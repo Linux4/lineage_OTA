@@ -1,4 +1,6 @@
-models: SM-G973F
+models:
+  - SM-G973F
+  - SM-G973N
 recovery_size: 67633152
 
 chipset: Samsung Exynos 9820 (8nm)

@@ -1,4 +1,6 @@
-models: SM-G970F
+models:
+  - SM-G970F
+  - SM-G970N
 recovery_size: 67633152
 
 chipset: Samsung Exynos 9820 (8nm)
