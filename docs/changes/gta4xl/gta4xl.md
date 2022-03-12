@@ -1,3 +1,7 @@
+## 2022-03-12
+- Synced with LineageOS sources
+- 2022-03-05 securitypatch (android-12.1.0_r1)
+
 ## 2022-03-05
 - Synced with LineageOS sources
 
