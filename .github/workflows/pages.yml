@@ -12,25 +12,46 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-
-      - uses: actions/cache@v2
+      - name: Checkout repo
+        uses: actions/checkout@v2
         with:
-          path: vendor/bundle
-          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-gems-
+          submodules: true
 
-      - uses: jeffreytse/jekyll-deploy-action@v0.3.1
+      - name: Install dependencies
+        uses: ruby/setup-ruby@v1
         with:
-          provider: 'github'
-          token: ${{ secrets.GITHUB_TOKEN }}
-          repository: ''
-          branch: 'gh-pages'
-          jekyll_src: './docs'
-          jekyll_cfg: '_config.yml'
-          jekyll_baseurl: ''
-          bundler_ver: '>=0'
-          cname: 'lineage.linux4.de'
-          actor: ''
-          pre_build_commands: ''
+          bundler-cache: true
+          ruby-version: 3.0.2
+          working-directory: docs
+
+      - name: Build page
+        run: |
+          cd docs
+          bundle exec jekyll build
+
+      - name: Commit changes
+        run: |
+          cd docs/_site
+          git init
+          git add .
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git commit -m "Jekyll build from ${GITHUB_SHA}"
+
+      - name: Check if changes were made
+        id: check
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          changed=0
+          cd docs/_site
+          git remote add origin https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}
+          git fetch origin gh-pages || changed=1
+          git diff --exit-code origin/gh-pages ':!feed.xml' || changed=1
+          echo ::set-output name=changed::$changed
+
+      - name: Push changes to repo
+        if: steps.check.outputs.changed == 1
+        run: |
+          cd docs/_site
+          git push origin HEAD:gh-pages --force
