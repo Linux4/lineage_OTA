@@ -1,3 +1,7 @@
+## 2022-03-18
+- Synced with LineageOS sources
+- LineageOS 19.1 (this also means automatic OTA will be prohibited and you have to manually flash and reflash all 3rd party addons)
+
 ## 2022-03-12
 - Synced with LineageOS sources
 - 2022-03-05 securitypatch (android-12.1.0_r1)
