@@ -1,3 +1,7 @@
+## 2022-04-09
+- Synced with LineageOS sources
+- 2022-04-05 system securitypatch
+
 ## 2022-04-02
 - Synced with LineageOS sources
 - Removed fake VoLTE icon (look at the build date :P)
