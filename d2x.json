@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": "1648901544",
-      "filename": "lineage-19.1-20220402-UNOFFICIAL-Linux4-d2x.zip",
-      "id": "f1aa711ced28e7d9454f99f47acffb9bd330aa14b4235a50c916a82e29c12d1f",
+      "datetime": "1649492138",
+      "filename": "lineage-19.1-20220409-UNOFFICIAL-Linux4-d2x.zip",
+      "id": "73e1d1e36a50511ba85d3b848b26067fe6f96f52d6f1baa4d25ebb34b93dbbfc",
       "romtype": "UNOFFICIAL",
-      "size": "866301180",
-      "url": "https://github.com/Linux4/lineage_OTA/releases/download/d2x-20220402/lineage-19.1-20220402-UNOFFICIAL-Linux4-d2x.zip",
+      "size": "857692840",
+      "url": "https://github.com/Linux4/lineage_OTA/releases/download/d2x-20220409/lineage-19.1-20220409-UNOFFICIAL-Linux4-d2x.zip",
       "version": "19.1"
     }
   ]
