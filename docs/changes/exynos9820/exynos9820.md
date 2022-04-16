@@ -1,3 +1,11 @@
+## 2022-04-16
+- Enabled AOD animation
+- Fixed DT2W on AOD
+- Synced with LineageOS sources
+{% if page.codename == "d1" or page.codename == "d2s" or page.codename == "d2x" %}
+- Added back mistakenly removed SPenActions
+{% endif %}
+
 ## 2022-04-09
 - Synced with LineageOS sources
 - 2022-04-05 system securitypatch

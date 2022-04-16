@@ -1,3 +1,7 @@
+## 2022-04-16
+- Linux 4.14.272
+- Synced with LineageOS sources
+
 ## 2022-04-09
 - Synced with LineageOS sources
 - 2022-04-05 system securitypatch
