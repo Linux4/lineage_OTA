@@ -1,3 +1,9 @@
+## 2022-04-23
+- Synced with LineageOS sources
+- Removed AudioFX as it interferes with Dolby Atmos
+- Added support for DSU
+- BT SCO fixed in a treble compliant way
+
 ## 2022-04-16
 - Enabled AOD animation
 - Fixed DT2W on AOD

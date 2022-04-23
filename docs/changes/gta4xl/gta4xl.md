@@ -1,3 +1,8 @@
+## 2022-04-23
+- Synced with LineageOS sources
+- Removed AudioFX as it interferes with Dolby Atmos
+- BT SCO fixed in a treble compliant way
+
 ## 2022-04-16
 - Linux 4.14.272
 - Synced with LineageOS sources
