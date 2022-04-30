@@ -1,3 +1,6 @@
+## 2022-04-30
+- Synced with LineageOS sources
+
 ## 2022-04-23
 - Synced with LineageOS sources
 - Removed AudioFX as it interferes with Dolby Atmos
