@@ -1,3 +1,6 @@
+## 2022-05-08
+- Resolve audio issues caused by dropping soundtrigger HAL
+
 ## 2022-05-07
 - Drop broken support for screen-off OK google (should allow screen-on one to work)
 - 2022-05-05 system securitypatch
