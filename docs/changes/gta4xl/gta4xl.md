@@ -1,3 +1,6 @@
+## 2022-05-14
+- Synced with LineageOS sources
+
 ## 2022-05-08
 - Resolve audio issues caused by dropping soundtrigger HAL
 
