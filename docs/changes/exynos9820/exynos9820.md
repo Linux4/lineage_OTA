@@ -1,3 +1,8 @@
+## 2022-05-21
+- Synced with LineageOS sources
+- 2022-05-01 vendor securitypatch
+- Linux 4.14.280
+
 ## 2022-05-14
 - Synced with LineageOS sources
 - Fixed external display output
