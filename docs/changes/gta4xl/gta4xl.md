@@ -1,3 +1,6 @@
+## 2022-05-28
+- Synced with LineageOS sources
+
 ## 2022-05-21
 - Synced with LineageOS sources
 - Linux 4.14.279
