@@ -1,3 +1,6 @@
+## 2022-07-16
+- Synced with LineageOS sources
+
 ## 2022-07-10
 - Added back mistakenly removed signature spoofing support
 
