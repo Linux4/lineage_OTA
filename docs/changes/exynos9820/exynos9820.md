@@ -1,3 +1,6 @@
+## 2022-07-30
+- 2022-07-01 vendor securitypatch
+
 ## 2022-07-16
 - Synced with LineageOS sources
 
