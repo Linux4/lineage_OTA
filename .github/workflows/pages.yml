@@ -24,6 +24,11 @@ jobs:
           ruby-version: 3.0.2
           working-directory: docs
 
+      - name: Generate model firmware redirects
+        run: |
+          sudo pip3 install shyaml
+          bash docs/_data/genmodelfw.sh
+
       - name: Build page
         run: |
           cd docs
