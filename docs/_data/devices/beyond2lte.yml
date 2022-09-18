@@ -23,4 +23,3 @@ front_cameras:
   - 8 MP, f/2.2, 22mm (wide), 1/4", 1.12µm, depth sensor
 fingerprint: Under display (ultrasonic)
 sensors: Accelerometer, Gyro, Proximity, Compass, Barometer, Heart rate, SpO2
-fw_require_lineage_version: 19.1
