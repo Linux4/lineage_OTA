@@ -1,3 +1,10 @@
+## 2022-09-18
+- Initial LineageOS 20.0 OTA
+- Synced with LineageOS sources
+{% if page.codename == "gta4xl" %}
+- Fixed RIL signal level not being updated
+{% endif %}
+
 ## 2022-07-16
 - Synced with LineageOS sources
 

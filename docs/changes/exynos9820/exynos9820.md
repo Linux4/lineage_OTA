@@ -1,3 +1,9 @@
+## 2022-09-18
+- Initial LineageOS 20.0 OTA
+- Synced with LineageOS sources
+- Fixed RIL signal level not being updated
+- Fixed AOD appearing to be frozen
+
 ## 2022-07-30
 - 2022-07-01 vendor securitypatch
 
