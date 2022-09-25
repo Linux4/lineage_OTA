@@ -1,3 +1,6 @@
+## 2022-09-25
+- Synced with LineageOS sources
+
 ## 2022-09-18
 - Initial LineageOS 20.0 OTA
 - Synced with LineageOS sources
