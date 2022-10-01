@@ -1,3 +1,8 @@
+## 2022-10-01
+- Synced with LineageOS sources
+- 2022-09-01 vendor securitypatch
+- EROFS for /vendor and /odm
+
 ## 2022-09-25
 - Synced with LineageOS sources
 
