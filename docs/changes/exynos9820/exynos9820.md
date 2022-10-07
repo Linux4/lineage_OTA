@@ -1,3 +1,7 @@
+## 2022-10-07
+- Synced with LineageOS sources
+- 2022-10-05 system securitypatch
+
 ## 2022-10-01
 - Synced with LineageOS sources
 - EROFS for /vendor
