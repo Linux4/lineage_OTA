@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": "1664647010",
-      "filename": "lineage-20.0-20221001-UNOFFICIAL-Linux4-gta4xl.zip",
-      "id": "c644e3cec21dce1195d3924d19a189d32881051446a5e81fecc1cb9b07ba06c4",
+      "datetime": "1665158804",
+      "filename": "lineage-20.0-20221007-UNOFFICIAL-Linux4-gta4xl.zip",
+      "id": "2b5842d80bb447c78a3ec38429fbf056a7aabf3026826e667ebd141ca8a66c76",
       "romtype": "UNOFFICIAL",
-      "size": "841947303",
-      "url": "https://github.com/Linux4/lineage_OTA/releases/download/gta4xl-20221001/lineage-20.0-20221001-UNOFFICIAL-Linux4-gta4xl.zip",
+      "size": "842778068",
+      "url": "https://github.com/Linux4/lineage_OTA/releases/download/gta4xl-20221007/lineage-20.0-20221007-UNOFFICIAL-Linux4-gta4xl.zip",
       "version": "20.0"
     }
   ]
