@@ -1,3 +1,7 @@
+## 2022-10-22
+- Synced with LineageOS sources
+- Ship firmware
+
 ## 2022-10-07
 - Synced with LineageOS sources
 - 2022-10-05 system securitypatch
