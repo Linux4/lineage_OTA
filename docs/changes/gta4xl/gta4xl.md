@@ -1,3 +1,8 @@
+## 2022-10-29
+- Synced with LineageOS sources
+- Fix Dolby Atmos
+- Linux 4.14.296
+
 ## 2022-10-22
 - Synced with LineageOS sources
 - Ship firmware
