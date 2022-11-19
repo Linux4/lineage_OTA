@@ -1,3 +1,8 @@
+## 2022-11-19
+- Synced with LineageOS sources
+- Fixed trust USB restriction issues
+- 2022-11-05 system securitypatch
+
 ## 2022-10-29
 - Synced with LineageOS sources
 - Fix Dolby Atmos
