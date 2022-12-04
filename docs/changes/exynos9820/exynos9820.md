@@ -1,3 +1,7 @@
+## 2022-12-04
+- Synced with LineageOS sources
+- Ship HVI4 firmware for easy flashing on devices running HVJ5
+
 ## 2022-11-19
 - Synced with LineageOS sources
 - Fixed trust USB restriction issues

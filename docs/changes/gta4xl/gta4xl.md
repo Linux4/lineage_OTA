@@ -1,3 +1,6 @@
+## 2022-12-04
+- Synced with LineageOS sources
+
 ## 2022-11-19
 - Synced with LineageOS sources
 - Fixed trust USB restriction issues
