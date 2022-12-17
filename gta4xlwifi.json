@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": "1670149877",
-      "filename": "lineage-20.0-20221204-UNOFFICIAL-Linux4-gta4xlwifi.zip",
-      "id": "65d11e447b60b3be270b0547ea59b1e915577ca0dc86878b31885d80852551cb",
+      "datetime": "1671293161",
+      "filename": "lineage-20.0-20221217-UNOFFICIAL-Linux4-gta4xlwifi.zip",
+      "id": "b2c7f2bc74d0efe1d0cc593f3c95c674de1c8f09e94ed0ea3e9f6585d913344a",
       "romtype": "UNOFFICIAL",
-      "size": "820940660",
-      "url": "https://github.com/Linux4/lineage_OTA/releases/download/gta4xlwifi-20221204/lineage-20.0-20221204-UNOFFICIAL-Linux4-gta4xlwifi.zip",
+      "size": "822156381",
+      "url": "https://github.com/Linux4/lineage_OTA/releases/download/gta4xlwifi-20221217/lineage-20.0-20221217-UNOFFICIAL-Linux4-gta4xlwifi.zip",
       "version": "20.0"
     }
   ]
