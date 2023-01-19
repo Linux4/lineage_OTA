@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": "1673773094",
-      "filename": "lineage-20.0-20230115-UNOFFICIAL-Linux4-d2x.zip",
-      "id": "bf5889992fd86b6d4c76e8474717b5cdb54835523e9e0c33ef9e218d961be6c4",
+      "datetime": "1674161192",
+      "filename": "lineage-20.0-20230119-UNOFFICIAL-Linux4-d2x.zip",
+      "id": "59f35b0b91873ec0960cbe84b4958193deff9c94bce9d3b63fdab476e97bfe20",
       "romtype": "UNOFFICIAL",
-      "size": "969149050",
-      "url": "https://github.com/Linux4/lineage_OTA/releases/download/d2x-20230115/lineage-20.0-20230115-UNOFFICIAL-Linux4-d2x.zip",
+      "size": "968915276",
+      "url": "https://github.com/Linux4/lineage_OTA/releases/download/d2x-20230119/lineage-20.0-20230119-UNOFFICIAL-Linux4-d2x.zip",
       "version": "20.0"
     }
   ]
