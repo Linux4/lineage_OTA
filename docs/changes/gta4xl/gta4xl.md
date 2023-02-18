@@ -1,3 +1,8 @@
+## 2023-02-18
+- Synced with LineageOS sources
+- 2023-02-05 system securitypatch
+- 2023-01-01 vendor securitypatch
+
 ## 2023-01-19
 - Synced with LineageOS sources
 - Added back mistakenly removed signature spoofing support
