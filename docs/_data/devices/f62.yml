@@ -1,0 +1,24 @@
+models:
+  - SM-E625F
+  - SM-M625F
+recovery_size: 67633152
+
+chipset: Samsung Exynos 9825 (7nm)
+cpu: Octa-core (2x2.73 GHz Mongoose M4 & 2x2.4 GHz Cortex-A75 & 4x1.95 GHz Cortex-A55)
+gpu: Mali-G76 MP12
+ram: 6/8 GB
+shipped_version: 11.0 (OneUI 3.0)
+storage: 128/256 GB UFS 3.0
+sim: Dual SIM (Nano-SIM, dual stand-by)
+microsd: Up to 1 TB
+battery: 7000 mAh Li-Ion (non-removable)
+dimensions: 163.9 x 76.3 x 9.5 mm (6.45 x 3.00 x 0.37 in)
+display: 6.7 inches, 1080 x 2400 pixels, 20:9 ratio
+rear_cameras:
+  - 64 MP, f/1.8, 26mm (wide), 1/1.73", 0.8µm, PDAF
+  - 12 MP, f/2.2, 123˚ (ultrawide)
+  - 5 MP, f/2.4, (macro)
+  - 5 MP, f/2.4, (depth)
+front_cameras: 32 MP, f/2.2, 26mm (wide), 1/2.8", 0.8µm
+fingerprint: Side-mounted
+sensors: Accelerometer, Gyro, Proximity, Compass
