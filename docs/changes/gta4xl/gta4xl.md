@@ -1,3 +1,6 @@
+## 2023-11-11
+- Initial build based on Android 14
+
 ## 2023-02-18
 - Synced with LineageOS sources
 - 2023-02-05 system securitypatch
