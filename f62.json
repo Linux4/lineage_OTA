@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": "1699717575",
-      "filename": "lineage-21.0-20231111-UNOFFICIAL-Linux4-f62.zip",
-      "id": "bd6d440600fd8ec97f79088ef4cce2599132033a46993990e8ab614778e1d15d",
+      "datetime": "1699803041",
+      "filename": "lineage-21.0-20231112-UNOFFICIAL-Linux4-f62.zip",
+      "id": "f81e7d6790b7b78ddeb5f7191472d728395a3fdb1cdbc7d3d49255400a5f2d5e",
       "romtype": "UNOFFICIAL",
-      "size": "999933245",
-      "url": "https://github.com/Linux4/lineage_OTA/releases/download/f62-20231111/lineage-21.0-20231111-UNOFFICIAL-Linux4-f62.zip",
+      "size": "1000222869",
+      "url": "https://github.com/Linux4/lineage_OTA/releases/download/f62-20231112/lineage-21.0-20231112-UNOFFICIAL-Linux4-f62.zip",
       "version": "21.0"
     }
   ]
