@@ -1,3 +1,13 @@
+## 2024-01-06
+WARNING: This update requires a factory reset and you must install the latest recovery before attempting to sideload it.
+
+- 2023-12-05 system securitypatch
+- Fixed microphone outside of calls
+- Switched to f2fs with fscrypt v2 for /data, generally modernized encryption setup
+{% if page.codename == "gta4xl" %}
+- Fixed sending SMS
+{% endif %}
+
 ## 2023-11-11
 - Initial build based on Android 14
 

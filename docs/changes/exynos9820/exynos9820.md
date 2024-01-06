@@ -1,3 +1,13 @@
+## 2024-01-06
+WARNING: This update requires a factory reset and you must install the latest recovery before attempting to sideload it.
+
+- 2023-12-05 system securitypatch
+- Fixed microphone outside of calls
+- Switched to f2fs with fscrypt v2 for /data, generally modernized encryption setup
+- Retrofitted dynamic partitions
+- Brought back screen resolution switch in settings
+- Fixed sending SMS
+
 ## 2023-11-12
 - Fixed bluetooth
 
