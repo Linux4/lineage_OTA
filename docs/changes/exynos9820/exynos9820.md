@@ -1,3 +1,8 @@
+## 2024-01-27
+- 2024-01-05 system securitypatch
+- Linux 4.14.336
+- Synced with LineageOS sources
+
 ## 2024-01-06
 WARNING: This update requires a factory reset and you must install the latest recovery before attempting to sideload it.
 
