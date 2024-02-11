@@ -1,3 +1,7 @@
+## 2024-02-11
+- 2024-02-05 system securitypatch
+- Synced with LineageOS sources
+
 ## 2024-01-27
 - 2024-01-05 system securitypatch
 - Linux 4.14.336
