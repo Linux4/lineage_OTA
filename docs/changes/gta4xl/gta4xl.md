@@ -1,3 +1,10 @@
+## 2024-03-30
+- 2024-03-05 system securitypatch
+- Linux 4.14.339
+- Synced with LineageOS sources
+- Improved GPU performance
+- Various smaller device-side improvements
+
 ## 2024-02-11
 - 2024-02-05 system securitypatch
 - Synced with LineageOS sources
