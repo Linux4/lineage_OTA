@@ -1,3 +1,8 @@
+{% if page.codename == "gta4xl" %}
+## 2024-03-31
+- Fixed RIL
+{% endif %}
+
 ## 2024-03-30
 - 2024-03-05 system securitypatch
 - Linux 4.14.339
