@@ -1,3 +1,8 @@
+{% if page.codename == "f62" %}
+## 2024-04-01
+- Fixed RIL
+{% endif %}
+
 ## 2024-03-30
 - 2024-03-05 system securitypatch
 - Linux 4.14.339
