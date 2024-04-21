@@ -1,3 +1,8 @@
+## 2024-04-21
+- 2024-04-05 system securitypatch
+- Linux 4.14.343
+- Synced with LineageOS sources
+
 {% if page.codename == "gta4xl" %}
 ## 2024-03-31
 - Fixed RIL

@@ -1,3 +1,11 @@
+## 2024-04-21
+- 2024-04-05 system securitypatch
+- Linux 4.14.343
+- Synced with LineageOS sources
+{% if page.codename == "d1" or page.codename == "d2s" or page.codename == "d2x" %}
+- Fixed S Pen switch event crashing system_server
+{% endif %}
+
 {% if page.codename == "f62" %}
 ## 2024-04-01
 - Fixed RIL
