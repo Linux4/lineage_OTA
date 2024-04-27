@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": "1713674278",
-      "filename": "lineage-21.0-20240421-UNOFFICIAL-Linux4-beyond1lte.zip",
-      "id": "33beea29f6ce4771aca647ef660d9d41eab1288bc66d73929be2cc401d29a834",
+      "datetime": "1714192659",
+      "filename": "lineage-21.0-20240427-UNOFFICIAL-Linux4-beyond1lte.zip",
+      "id": "c8b672b70cd1d567d8f076adc18f5d375da09966fb145690967506eea07503a1",
       "romtype": "UNOFFICIAL",
-      "size": "1037736413",
-      "url": "https://github.com/Linux4/lineage_OTA/releases/download/beyond1lte-20240421/lineage-21.0-20240421-UNOFFICIAL-Linux4-beyond1lte.zip",
+      "size": "1037499589",
+      "url": "https://github.com/Linux4/lineage_OTA/releases/download/beyond1lte-20240427/lineage-21.0-20240427-UNOFFICIAL-Linux4-beyond1lte.zip",
       "version": "21.0"
     }
   ]
