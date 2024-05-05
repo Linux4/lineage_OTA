@@ -1,3 +1,7 @@
+## 2024-05-05
+- Improved smoothness
+- Improved battery life (screen on)
+
 ## 2024-04-27
 - Improved mic quality
 - Added proper support for battery info

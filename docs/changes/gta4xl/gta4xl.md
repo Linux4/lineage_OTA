@@ -1,3 +1,7 @@
+## 2024-05-05
+- Improved smoothness
+- Improved battery life (screen on)
+
 ## 2024-04-27
 - Added proper support for battery info
 - 2024-02-01 vendor securitypatch
