@@ -1,3 +1,8 @@
+## 2024-05-11
+- 2024-05-05 system securitypatch
+- Linux 4.14.344
+- Synced with LineageOS sources
+
 ## 2024-05-05
 - Improved smoothness
 - Improved battery life (screen on)
