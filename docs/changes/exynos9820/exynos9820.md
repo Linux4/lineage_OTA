@@ -1,3 +1,10 @@
+## 2024-06-26
+- 2024-06-05 system securitypatch
+- Linux 4.14.345
+- Synced with LineageOS sources
+- Increased video call speaker volume
+- Resolved an issue that would sometimes crash camera HAL when switching lenses
+
 ## 2024-05-11
 - 2024-05-05 system securitypatch
 - Linux 4.14.344
